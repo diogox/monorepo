@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  nats:
+    image: nats
+    container_name: nats
+    restart: always
+    ports:
+      - "8222:8222"
+      - "6222:6222"
+      - "4222:4222"
