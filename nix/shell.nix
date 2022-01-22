@@ -1,7 +1,10 @@
-{ system ? builtins.currentSystem, nixpkgs ? import <nixpkgs> {} }:
+{ system ? builtins.currentSystem, sources ? import ./sources.nix }:
 let
-  pkgs = import <nixpkgs> {
-    inherit system; config = { };
+  pkgs = import sources.nixpkgs { 
+    inherit system;
+
+    config = { };
+
     overlays = [
       (self: super: 
         let
