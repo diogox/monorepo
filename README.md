@@ -2,9 +2,9 @@
 
 ## Setup
 
-This repo leverages Nix to install all dependencies automatically.
+This repo leverages *Nix* to install all dependencies automatically.
 
-Then only dependencies we need to manually install are:
+The only dependencies we need to manually install are:
 * [nix](https://github.com/NixOS/nix)
 * [direnv](https://github.com/direnv/direnv)
 
