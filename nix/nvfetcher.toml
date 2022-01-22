@@ -4,9 +4,12 @@
 ##src.manual = "go1.17"
 
 [nvfetcher]
-#src.github = "berberman/nvfetcher"
 fetch.github = "berberman/nvfetcher"
 src.manual = "0.4.0"
+
+[niv]
+fetch.github = "nmattia/niv"
+src.manual = "v0.2.19"
 
 [golangci-lint]
 fetch.github = "golangci/golangci-lint"
@@ -14,4 +17,4 @@ src.manual = "v1.43.0"
 
 [frugal]
 fetch.github = "Workiva/frugal"
-src.manual = "v3.14.13"
+src.manual = "v3.14.11"
