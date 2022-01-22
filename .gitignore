@@ -1,2 +1,4 @@
+nix/_sources
+.direnv
 .idea
 vendor
