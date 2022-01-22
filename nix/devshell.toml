@@ -1,0 +1,25 @@
+#imports = [
+  #"language.go"
+#]
+
+[devshell]
+name = "monorepo"
+
+packages = [ 
+  "nvfetcher"
+]
+
+[[commands]] # TODO: This is not working. Can't find flag "-f"??
+help = "Update a dependency (\"update golangci-lint\")"
+name = "update"
+command = "nvfetcher -f"
+
+[[commands]]
+help = "Run Linting"
+package = "golangci-lint"
+category = "Go"
+
+[[commands]]
+help = "Generate Frugal"
+package = "frugal"
+category = "Encoding"

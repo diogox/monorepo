@@ -1,0 +1,17 @@
+#[go]
+#src.github = "golang/go"
+#fetch.github = "golang/go"
+##src.manual = "go1.17"
+
+[nvfetcher]
+#src.github = "berberman/nvfetcher"
+fetch.github = "berberman/nvfetcher"
+src.manual = "0.4.0"
+
+[golangci-lint]
+fetch.github = "golangci/golangci-lint"
+src.manual = "v1.43.0"
+
+[frugal]
+fetch.github = "Workiva/frugal"
+src.manual = "v3.14.13"
