@@ -1,3 +1,3 @@
 package contracts
 
-//go:generate frugal -gen=go event.frugal
+//go:generate sh -c "frugal -gen=go $(find *.frugal)"
