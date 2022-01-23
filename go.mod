@@ -9,5 +9,6 @@ require (
 	github.com/goplusjs/gopherjs v1.2.5 // indirect
 	github.com/nats-io/nats.go v1.13.1-0.20211122170419-d7c1d78a50fc
 	github.com/urfave/cli v1.22.5 // indirect
+	go.uber.org/zap v1.20.0
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 )
