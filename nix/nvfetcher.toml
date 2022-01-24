@@ -17,4 +17,4 @@ src.manual = "v1.43.0"
 
 [frugal]
 fetch.github = "Workiva/frugal"
-src.manual = "v3.14.11"
+src.manual = "v3.14.13"
