@@ -1,7 +1,6 @@
 #[go]
-#src.github = "golang/go"
 #fetch.github = "golang/go"
-##src.manual = "go1.17"
+#src.manual = "go1.18beta1"
 
 [nvfetcher]
 fetch.github = "berberman/nvfetcher"

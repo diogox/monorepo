@@ -1,11 +1,8 @@
-#imports = [
-  #"language.go"
-#]
-
 [devshell]
 name = "monorepo"
 
 packages = [ 
+  "diffutils", # used by golangci-lint
   "nvfetcher"
 ]
 
@@ -15,7 +12,12 @@ name = "update"
 command = "nvfetcher -f"
 
 [[commands]]
-help = "run linting"
+help = "programming language"
+package = "go_1_17"
+category = "go"
+
+[[commands]]
+help = "linter"
 package = "golangci-lint"
 category = "go"
 
@@ -23,3 +25,15 @@ category = "go"
 help = "generate frugal"
 package = "frugal"
 category = "encoding"
+
+[[commands]]
+help = "manage edgedb"
+name = "edgedb"
+command = "docker-compose exec edgedb edgedb -I local_dev $@"
+category = "edgedb"
+
+[[commands]]
+help = "migrate edgedb"
+name = "migrate"
+command = "edgedb migration create && edgedb migration apply"
+category = "edgedb"

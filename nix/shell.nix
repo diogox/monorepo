@@ -20,6 +20,7 @@ let
           frugal = super.frugal.overrideAttrs (old: {
             inherit (sources.frugal) src version;
           });
+          # TODO: Add edgedb-cli here
         }
       )
     ];
