@@ -10,16 +10,16 @@ packages = [
 ]
 
 [[commands]] # TODO: This is not working. Can't find flag "-f"??
-help = "Update a dependency (\"update golangci-lint\")"
+help = "update a dependency (\"update golangci-lint\")"
 name = "update"
 command = "nvfetcher -f"
 
 [[commands]]
-help = "Run Linting"
+help = "run linting"
 package = "golangci-lint"
-category = "Go"
+category = "go"
 
 [[commands]]
-help = "Generate Frugal"
+help = "generate frugal"
 package = "frugal"
-category = "Encoding"
+category = "encoding"
